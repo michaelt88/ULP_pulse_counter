@@ -32,7 +32,7 @@ This project implements a low-power ESP32-based power monitoring system that use
 - Remove onboard voltage regulator and LEDs.
 - Minimize power consumption by selecting boards with efficient USB-to-serial chips.
 
-## LDR Voltage Divider Notes ##
+### LDR Voltage Divider Notes ##
 
 - Monitoring the LED with a LDR
 - Disable pull up and pull down
@@ -40,7 +40,7 @@ This project implements a low-power ESP32-based power monitoring system that use
 - LDR to ground, 220kOhm to 3.3V
 - Voltage = 0.7V LED on, 2.5V LED off
 
-## Battery Voltage Divider Notes ##
+### Battery Voltage Divider Notes ##
 
 - I used two equal values resistors for the battery voltage dividers
 - I used quite high value resistors (330 kOhm) to minimise passive current draw.
