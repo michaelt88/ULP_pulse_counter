@@ -2,13 +2,12 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
-#define WIFI_SSID "mike"
-//#define WIFI_SSID "mike2"
-#define WIFI_PASSWORD "michaelt"
-#define MQTT_SERVER "192.168.0.119"
+#define WIFI_SSID "<wifi_ssid>"
+#define WIFI_PASSWORD "<wifi_pwd>"
+#define MQTT_SERVER "<HA_server>"
 #define MQTT_PORT 1883
-#define MQTT_USER "esp"
-#define MQTT_PASSWORD "esp"
+#define MQTT_USER "<mqtt_user>"
+#define MQTT_PASSWORD "<mqtt_pwd>"
 
 #define TOPIC_PREFIX "home"
 
